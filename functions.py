@@ -16,7 +16,7 @@ def canIBuyBeer(age,location,promilleHalt):
         return False
     if location == "S" and age < 19:
         return False
-    if location == "K" or age < 18:
+    if location == "K" and age < 18:
         return False
     return True
 

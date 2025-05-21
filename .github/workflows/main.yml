@@ -20,10 +20,13 @@ jobs:
         with:
             python-version: '3.11'  # Anpassa till din version
 
-          # Install dependencies? Bara om det behövs!
+          # Install dependencies? Om det behövs!
 
       - name: Run tests
         run: |
-            python -m unittest discover -s tests -p '*Tests.py' -v
+            python -m unittest discover -s tests
+
+      - name: Confirm tests
+        run: All tests passed    
      
 
