@@ -31,6 +31,10 @@ jobs:
 
       - name: Tests Success Message
         run: echo All tests passed    
+
+      - name: Kontrollera att index.html finns och innehåller text
+        run: |
+          grep "<h1>Code Is Running</h1>" index.html
      
       - name: Copy to dist
         run: |
