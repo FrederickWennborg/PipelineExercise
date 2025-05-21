@@ -27,6 +27,6 @@ jobs:
             python -m unittest discover -s tests -p '*test.py*'
 
       - name: Tests Sucess Message
-        run: All tests passed    
+        run: echo All tests passed    
      
 
