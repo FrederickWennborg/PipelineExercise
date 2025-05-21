@@ -26,7 +26,7 @@ jobs:
         run: |
             python -m unittest discover -s tests
 
-      - name: Confirm tests
-        run: All tests passed    
+      - name: Tests Success Message
+        run: echo All tests passed    
      
 
