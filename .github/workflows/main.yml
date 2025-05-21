@@ -34,7 +34,7 @@ jobs:
 
       - name: Kontrollera att index.html finns och innehåller text
         run: |
-          grep "<h1>Code Is Running</h1>" index.html
+          grep "<h1>Code is running</h1>" index.html
      
       - name: Copy to dist
         run: |
