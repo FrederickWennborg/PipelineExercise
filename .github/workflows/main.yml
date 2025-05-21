@@ -24,9 +24,9 @@ jobs:
 
       - name: Run tests
         run: |
-            python -m unittest discover -s tests -p '*test.py*'
+            python -m unittest discover -s tests -p '*Tests.py' -v
 
-      - name: Tests Sucess Message
+      - name: Tests Success Message
         run: echo All tests passed    
      
 
